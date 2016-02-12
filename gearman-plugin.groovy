@@ -8,4 +8,4 @@ void gearman_conf(String host, String port, String gearman_enable) {
   conf.port = Integer.parseInt(port)
   conf.enablePlugin = Boolean.parseBoolean(gearman_enable)
   conf.save()
-  }
+}
