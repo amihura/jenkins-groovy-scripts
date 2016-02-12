@@ -2,6 +2,7 @@ import hudson.markup.RawHtmlMarkupFormatter
 import hudson.markup.EscapedMarkupFormatter
 import org.jenkinsci.plugins.UnsafeMarkupFormatter
 
+// Allows to use Raw HTML, Plain Text or unsafe markup
 
   void set_markup(String markup) {
     if (markup == "raw-html") {
