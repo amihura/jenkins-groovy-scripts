@@ -23,7 +23,6 @@ import com.sonyericsson.hudson.plugins.gerrit.trigger.PluginImpl
     config.setGerritFrontEndURL(gerrit_url)
     config.setGerritUserName(gerrit_username)
     config.setGerritAuthKeyFile(new File(gerrit_key_path))
-    PluginImpl.getInstance().save()
     } else {
       Config config = PluginImpl.getInstance().getServer(gerrit_server_name).getConfig()
       config.setGerritBuildCurrentPatchesOnly(true)
