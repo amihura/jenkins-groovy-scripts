@@ -5,7 +5,7 @@ import com.sonyericsson.hudson.plugins.gerrit.trigger.PluginImpl
 
   void setup_gerrit(
     String gerrit_hostname = null,
-    String gerrit_key_path = null
+    String gerrit_key_path = null,
     String gerrit_server_name = null,
     String gerrit_url = null,
     String gerrit_username = null
